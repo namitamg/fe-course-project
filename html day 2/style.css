@@ -1,0 +1,11 @@
+.body{
+    text-align: center;
+}
+
+.box{
+    color:blue;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+}
