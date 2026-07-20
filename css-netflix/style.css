@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-img{
+    width: 100%;
+    transform: scale(1.4);
+}
+
+.tint{
+    background-color: rgb(0, 0.5, 0,0.45);
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 0;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 999px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+
+}
+
+.logo{
+    width: 150px;
+    /* top: 80px; */
+}
+
+.nav-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 8px 18px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn2{
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding:8px 50px ;
+}
+
+.title{
+    /* font-weight: bolder; */
+    font-size: 55px;
+}
+
+.para{
+    font-size: 20px;
+}
+
+.desp{
+    font-size: 20px;
+}
+
+.content-flex{
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+}
+
+.input-class{
+   background-color: transparent;
+    color: white;
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding:12px;
+}
+
+.btn3{
+    padding:  14px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    color: white;
+    display: flex;
+    width: 990px;
+    margin: 100px auto;
+    gap: 80px;
+    align-items: center;
+}
+
+.left-section{
+    width: 50%;
+}
+
+.right-section{
+    width: 50%;   
+}
+
+.right-img{
+    width: 100%;
+    position: relative;
+}
+.video{
+    width: 100%;
+    position: absolute;
+}
+
+.right-section{
+    display: block;
+    position: relative;
+}
